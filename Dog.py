@@ -1,5 +1,11 @@
 class Dog:
-    """This is the beginning of a class for the humble house dog"""
+    """This is the beginning of a class for the humble house dog
+    attributes
+        name
+        breed
+        color
+        mass
+        height"""
 
     def __init__(self, name):
         self.name = name
